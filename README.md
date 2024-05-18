@@ -1,3 +1,40 @@
+## Para rodar essa aplicação;
+
+- Baixe o arquivo do projeto
+- Verifque se está dentro da pasta do projeto
+- Caso não esteja na pasta do projeto aplique o comando `cd + "nome do arquivo"` no terminal
+- Instale as dependencias com o comando `npm install`
+- Após a instalação aplique o comando no terminal `npm run dev` para rederizar o projeto em seu navagador padrão.
+
+<br/>
+<br/>
+
+# React com TypeScript;
+
+Configuração Inicial, é preciso ter o Node.Js instalado em sua máquina.
+
+### START
+
+No terminal utilizei o comando;
+
+- `npm create vite@latest`
+  - react
+  - typescript
+  - adicionei o nome do projeto
+    - `cd nome do projeto`
+    - `npm run dev`
+
+<br/>
+
+Após iniciar o projeto, instalei;
+
+- `npm install --save styled-components`
+- `npm install react-router-dom@6`
+
+<br/>
+<br/>
+<br/>
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -22,7 +59,7 @@ export default {
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
