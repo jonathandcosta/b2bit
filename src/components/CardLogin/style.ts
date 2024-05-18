@@ -4,7 +4,8 @@ import { breakpoints } from '../../styles';
 export const CardContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 161px;
+  align-items: center;
+  height: 100vh;
 `;
 
 export const CardStyle = styled.div`
